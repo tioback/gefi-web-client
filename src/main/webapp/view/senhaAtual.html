@@ -1,0 +1,9 @@
+<div class="jumbotron">
+	<h4>Gefi - Gerenciador de Filas</h4>
+	<div class="alert alert-info" ng-show="senhaGerada">Sua senha: {{senhaGerada}}</div>
+	<div ng-if="ultimaSenha" class="alert alert-warning">
+		Última senha chamada: <span class="label label-default">{{ultimaSenha}}</span>
+	</div>
+	<h5 ng-if="!ultimaSenha">Nenhuma senha chamada até o momento</h5>
+	<a href="#/inicio" class="btn btn-default btn-block">Voltar</a>
+</div>

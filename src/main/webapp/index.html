@@ -1,0 +1,35 @@
+<html ng-app="gefi">
+	<head>
+		<meta charset="UTF-8">
+		<title>Gefi - Gerenciador de Filas</title>
+		<link rel="stylesheet" type="text/css" href="lib/bootstrap/bootstrap.css" />
+		<link rel="stylesheet" type="text/css" href="lib/ngToast/ngToast.css" />
+		<link rel="stylesheet" type="text/css" href="lib/ngToast/ngToast-animations.css" />
+		<link rel="stylesheet" type="text/css" href="css/gefi.css" />
+		<link rel="stylesheet" type="text/css" href="css/uiAlert.css" />
+		<script type="text/javascript" src="lib/angular/angular.js"></script>
+		<script type="text/javascript" src="lib/angular/angular-route.js"></script>
+		<script type="text/javascript" src="lib/angular/angular-animate.js"></script>
+		<script type="text/javascript" src="lib/angular/angular-sanitize.js"></script>
+		<script type="text/javascript" src="lib/ngToast/ngToast.js"></script>
+		<script type="text/javascript" src="lib/sockjs/sockjs.js"></script>
+		<script type="text/javascript" src="lib/webSocket/webSocketAPI.js"></script>
+		<script type="text/javascript" src="lib/stomp/stomp.js"></script>
+		<script type="text/javascript" src="lib/angular/angular-route.js"></script>
+		<script type="text/javascript" src="js/gefi.js"></script>
+		<script type="text/javascript" src="js/config/ngToastConfig.js"></script>
+		<script type="text/javascript" src="js/config/constants.js"></script>
+		<script type="text/javascript" src="js/directives/uiAlert.js"></script>
+		<script type="text/javascript" src="js/config/routeConfig.js"></script>
+		<script type="text/javascript" src="js/controllers/cliente.js"></script>
+		<script type="text/javascript" src="js/controllers/gerente.js"></script>
+		<script type="text/javascript" src="js/controllers/visualizador.js"></script>
+		<script type="text/javascript" src="js/services/clienteAPI.js"></script>
+		<script type="text/javascript" src="js/services/gerenteAPI.js"></script>
+		<script type="text/javascript" src="js/services/visualizadorAPI.js"></script>
+	</head>
+	<body>
+		<div ng-view></div>
+		<div ng-include="'view/footer.html'"></div>
+	</body>
+</html>

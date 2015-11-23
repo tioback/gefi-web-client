@@ -1,0 +1,11 @@
+<div class="jumbotron">
+	<h4>Gefi - Gerenciador de Filas</h4>
+	<div class="alert alert-info" ng-show="senhaChamada">
+		Chamando senha: {{senhaChamada}}
+	</div>
+	<toast></toast>
+	<button class="btn btn-primary btn-block" ng-click="chamaProximaSenha()">Chamar Próxima Senha</button>
+	<button class="btn btn-default btn-block" ng-click="reiniciaSenhaPreferencial()">Reiniciar Senha Preferencial</button>
+	<button class="btn btn-default btn-block" ng-click="reiniciaSenhaNormal()">Reiniciar Senha Normal</button>
+	<a href="#/inicio" class="btn btn-default btn-block">Voltar</a>
+</div>
