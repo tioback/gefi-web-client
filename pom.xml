@@ -5,7 +5,7 @@
 
 	<groupId>renatoback.paripassu.teste.analistaIII</groupId>
 	<artifactId>gefi-web-client</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<packaging>war</packaging>
 	<name>Gefi Web Client</name>
 	<description>Cliente Web com Angular para o Sistema Gefi</description>
