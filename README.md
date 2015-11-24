@@ -1,4 +1,4 @@
-# gefi-server
+# gefi-web-client
 Cliente web para o serviço de gerenciamento de filas.
 
 ## Propósito
