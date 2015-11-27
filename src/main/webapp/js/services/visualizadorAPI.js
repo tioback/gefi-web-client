@@ -19,6 +19,16 @@ angular.module("gefi").factory("visualizadorAPI", function($http, config, webSoc
 	var _ultimaSenhaChamada = function() {
 		return $http.get(config.baseUrl + "/senha").then(function(response) {
 			return response.data.codigo;
+		}, function(response) {
+			console.log(response);
+			if (response.status < 0) {
+				console.log("Sem rede.");
+			} else if (response.status == 404) {
+				console.log("Sem mensagens na fila.");
+			} else {
+				console.log("Erro desconhecido.");
+			}
+			return null;
 		});
 	}
 	
